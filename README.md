@@ -1,6 +1,9 @@
 # IntelliJ CE Inside Docker
 
-## Installation
+[![](https://badge.imagelayers.io/smilingrob/intellij-ce:latest.svg)](https://imagelayers.io/?images=smilingrob/intellij-ce:latest 'Get your own badge on imagelayers.io')
+
+
+## Installation From Source
 
 ```bash
 docker build -t idea .
