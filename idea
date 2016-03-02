@@ -1,0 +1,8 @@
+#!/bin/bash
+docker ps -a | grep idea >/dev/null
+status=$?
+if [ $status -ne 0 ]; then
+	docker run -ti -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME/dev:/home/developer/dev --name idea idea
+else
+	docker start idea
+fi
