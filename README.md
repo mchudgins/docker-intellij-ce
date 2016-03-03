@@ -6,7 +6,7 @@
 ## Installation From Source
 
 ```bash
-docker build -t idea -f Dockerfile-15.0.4 .
+docker build -t idea .
 ```
 
 ## Running
