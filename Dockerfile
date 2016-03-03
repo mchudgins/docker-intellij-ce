@@ -1,9 +1,9 @@
-FROM java
+FROM java:7-jdk
 MAINTAINER Robert Wallis <smilingrob@gmail.com>
 
 RUN apt-get update && \
 	apt-get install -y sudo && \
-	apt-get clean
+	rm -rf /var/lib/apt/lists/*
 
 RUN wget https://d1opms6zj7jotq.cloudfront.net/idea/ideaIC-15.0.4.tar.gz -O /tmp/idea.tar.gz -q && \
     mkdir -p /usr/share/intellij && \
