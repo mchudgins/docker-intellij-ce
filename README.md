@@ -2,6 +2,9 @@
 
 [![](https://badge.imagelayers.io/smilingrob/intellij-ce:latest.svg)](https://imagelayers.io/?images=smilingrob/intellij-ce:latest 'Get your own badge on imagelayers.io')
 
+Run IntelliJ Idea Community Edition 15.0.4 inside a docker container.
+This version runs with Open JDK 8 installed.
+
 ## Running
 
 ```bash
